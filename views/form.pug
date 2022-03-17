@@ -1,0 +1,64 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous")
+    link(rel="stylesheet" href="/static/style.css")
+    title parallax effect
+  body
+    .box1
+      .pht.my-5.mx-5
+        img(src="https://venngage-wordpress.s3.amazonaws.com/uploads/2018/06/Modern-Black-and-White-Infographic-Resume-Template.jpg")
+      h1 Create Your Perfect Resume
+    .box2
+      .card.my-5.mx-5(style="width: 18rem;")
+        img.card-img-top(src="https://static1.shine.com/l/s/react/assets/images/home-banner-slider.png")
+        #card.card-body
+          h5.card-title Quick and Easy
+          p.card-text
+            | With our online cv builder, it is simple for anyone to create a professional cv.Enter the details asked and boom ...your cv is ready
+      .card(style="width: 18rem;")
+        img.card-img-top(src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRVMYncxSsKqG2R808ed780rARZhfsdGR0wyg&usqp=CAU")
+        #card.card-body
+          h5.card-title Job Search Made Easy
+          p.card-text
+            | With a representational and professional CV you will stand out, amongst the other applicants.This makes a great impression
+      .card(style="width: 18rem;")
+        img.card-img-top(src="https://i.pinimg.com/originals/86/7e/94/867e94476a31d7a01239c7c915b121a6.jpg")
+        #card.card-body
+          h5.card-title Organize 
+          p.card-text
+            | Often , it is important to tailor your cv based on the job you wish to apply for .With this you can manage well
+      .card(style="width: 18rem;")
+        img.card-img-top(src="https://www.thebalancecareers.com/thmb/ndAUJ-5i8JsY8kNRGn6yvxq3Gqw=/2000x2000/smart/filters:no_upscale()/best-resume-examples-a-z-list-2063587-Final-226a70c2dfa44d53bddd4f663260f005.png")
+        #card.card-body
+          h5.card-title more time to focus
+          p.card-text
+            | With our online cv builder, it is simple for anyone to create a professional cv.Enter the details asked and boom ...your cv is ready
+    form(action="/" method="post")
+      .box3
+        .container
+          h1#a Enter Your Details
+          input(type="text" name="name" placeholder="Full Name")
+          input(type="text" name="gender" placeholder="Gender")
+          input(type="text" name="age" placeholder="Your Age")
+          input(type="text" name="qua" placeholder="Recent or Ongoing Qualification")
+          textarea(name="desp" id="desp" cols="30" rows="5") Describe yourself in a few lines
+          input(type="text" name="m12" placeholder="Enter Your 10+2 board along with marks you scored")
+          input(type="text" name="mc" placeholder="Enter Your College  name and cumulative Grade Point")
+          textarea(name="exp1" id="exp1" cols="30" rows="5") Enter Your Project or Work exp details
+          textarea(name="exp2" id="exp2" cols="30" rows="5") Enter Your Project or Work exp details
+      .box4
+        .container
+          textarea(name="exp3" id="exp3" cols="30" rows="5") Enter Your Project or Work exp details
+          input(type="text" name="skill1" placeholder="Add your skills here")
+          input(type="text" name="skill2" placeholder="Add your skills here")
+          input(type="text" name="skill3" placeholder="Add your skills here")
+          input(type="text" name="skill4" placeholder="Add your skills here")
+          input(type="text" name="skill5" placeholder="Add your skills here")
+          input(type="text" name="skill6" placeholder="Add your skills here")
+          input(type="text" name="email" placeholder="Enter your email-address")
+          input(type="text" name="mobile" placeholder="Enter your contact no")
+          button.btn Submit
+          a(href='/output.html') viewit

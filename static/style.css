@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    height: 100vh;
+    width: 100%;
+    background-image:url('https://mrpopat.in/admin/upload/wallpaper/201506171434522236244035444.jpg');
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    
+}
+.box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://i.pinimg.com/originals/05/43/a3/0543a31f435643f44373112bfe1c38a9.jpg');
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+.box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://thewallpaper.co//wp-content/uploads/2016/10/amazing-starry-night-sky-wallpaper-hd-wallpaper-desktop-images-background-photos-download-hd-free-windows-wallpaper-mac-1920x1080.jpg');
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+.box4{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://thewallpaper.co//wp-content/uploads/2016/10/amazing-starry-night-sky-wallpaper-hd-wallpaper-desktop-images-background-photos-download-hd-free-windows-wallpaper-mac-1920x1080.jpg');
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(70, 69, 69);
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+img{
+    height: 400px;
+    width: 450px;
+    opacity: 0.8;
+
+}
+#b{
+    color: white;
+}
+.card{
+    display: inline-block;
+    margin: 40px;
+    opacity: 0.9;
+}
+.container{
+    margin: 12px auto;
+    max-width: 70%;
+
+}
+
+input,textarea,h1,#add,.btn,a{
+    display: block;
+    padding :3 px;
+    margin: 12px auto;
+    width : 50%;
+    outline: none;
+    border-radius: 8px;
+}
+input,textarea{
+    opacity: 0.8;
+}
+#a{
+    font-size: 40px;
+    color: white;
+}
+#add{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+
+}
+.btn{
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
